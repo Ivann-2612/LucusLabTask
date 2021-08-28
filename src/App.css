@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f1f5f9;
+  font-family: Sen;
+  margin: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loggedin {
+  padding: 5px;
+  float: right;
+  padding: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.div-link {
+  position: absolute;
+  top: 7%;
+  background-color: blue;
+  height: 50vh;
+  width: 11vw;
+  margin-left: -20px;
+  padding: 40px;
+}
+.link {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 15px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.div-input {
+  border:1px solid white;
+  width: 350px;
+  position: absolute;
+  left: 40%;
+  top: 32.4%;
+  backdrop-filter:blur(15px);
+  padding: 45px;
+  padding-left:63px; 
+  background-color: #c2bf8f;
+  opacity: 0.92;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  caret-color: red;
+}
+/* .div-input:hover {
+  background-color: darkslategrey;
+} */
+div > .input {
+  display:flex;
+  margin-top: 15px;
+  padding: 8px 20px;
+  margin-left: 3px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.login {
+  padding:10px;
+  font-family:sans-serif;
+  margin-right:10px;
+  font-size:28px;
+  padding: 7px 25px;
+  -moz-box-shadow: -1px 1px 5px #e0d7e0;
+  -webkit-box-shadow: -1px 1px 5px #e0d7e0;
+  box-shadow: -1px 1px 5px #e0d7e0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.register {
+  padding:10px;
+  font-family:sans-serif;
+  font-size:28px;
+  padding: 7px 25px;
+  -moz-box-shadow: -1px 1px 5px #e0d7e0;
+  -webkit-box-shadow: -1px 1px 5px #e0d7e0;
+   box-shadow: -1px 1px 5px #e0d7e0;
+}
+.btn-login {
+  padding: 4px 20px;
+  margin-top: 15px;
+  margin-left: 2px;
+  border-radius: 4px;
+}
+.btn-login:hover {
+  background-color: red;
+}
+.not-registered {
+  margin-left: 35px;
+}
+span {
+  margin-right: 20px;
+  text-transform: uppercase;
+  color: darkgoldenrod;
+}
+.logout {
+  padding: 5px 12px;
+  background-color: greenyellow;
+  margin-left: 10px;
+}
+.page-one,
+.page-two,
+.page-three {
+  margin: 180px;
+  margin-top: 50px;
+}
+.MuiPaper-elevation2 {
+  width: 70%;
+  margin: 50px auto;
+}
+.MuiIcon {
+  width: auto;
+  height: 1em;
+  overflow: hidden;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+  user-select: none;
 }
