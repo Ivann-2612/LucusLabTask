@@ -20,9 +20,7 @@ function App() {
            {
                user ? 
                <>
-              <Nav />
-              
-                {/* <Search setSearch={setSearch} search={search} />  */}
+              <Nav />              
                <div className='loggedin'>
                  <span> Username:  {user.username}</span>&nbsp;
                  <button className='logout' onClick={() => setUser(null)}>LOGOUT</button> 

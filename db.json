@@ -4,7 +4,7 @@
       "username": "ivan",
       "email": "ivan@gmail.com",
       "password": "ivan2612",
-      "id": 2
+      "id": 1
     },
     {
       "username": "anja",
@@ -17,6 +17,12 @@
       "email": "caca@gmail.com",
       "password": "caca2612",
       "id": 3
+    },
+    {
+      "username": "ivke",
+      "email": "ivke@gmail.com",
+      "password": "ivke123",
+      "id": 4
     }
   ]
 }

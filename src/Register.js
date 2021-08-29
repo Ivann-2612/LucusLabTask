@@ -35,7 +35,7 @@ const Register = () => {
             <input className='input' type="text" placeholder="username..." onChange={e => setUsername(e.target.value)}/>
             <input className='input' type="email" placeholder="email..." onChange={e => setEmail(e.target.value)} />
             <input className='input' type="password" placeholder="password..." onChange={e => setPassword(e.target.value)} />
-            <input className='input' type="submit" value="Register" />
+            <input className='inputButton' type="submit" value="Register" />
             </div>
         </form>
     )

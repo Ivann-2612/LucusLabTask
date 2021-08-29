@@ -25,15 +25,15 @@ const PageTwo = () => {
 
     return (
         <div className='page-two'>
-            <h1>Unsplash gallery</h1>
-            <div style={{marginBottom:'20px'}}>
+            <div><h1>Unsplash gallery</h1><span style={{color:'#DCC69D'}}>Search your favourite image</span></div> 
+            <div style={{marginBottom:'10px'}}>
             <input onChange={handleChange} type='search' name='photo' placeholder='Search for photos...' />
             <button onClick={handleSubmit} type='submit'>Search</button>
             </div><br /> 
             {
                 results.map((result) => (
                     <div className='gallery'>
-                         <img style={{height:'370px',width:'370px'}} src={result.urls.small} />
+                         <img style={{height:'370px',width:'370px'}} src={result.urls.small} alt='decorative images' />
                     </div>
                        
                     )
