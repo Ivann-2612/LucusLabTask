@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useHistory } from "react-router"
 import { Link } from "react-router-dom"
-import { getAllUsers } from "./service"
+import { getAllUsers } from "../service"
 
 
 const Login = ({ setUser }) => {

@@ -1,12 +1,12 @@
 import './App.css'
-import Home from './Home'
-import PageOne from './PageOne'
-import PageTwo from './PageTwo'
-import PageThree from './PageThree'
-import Login from './Login'
-import Register from './Register'
+import Home from '../src/components/Home'
+import PageOne from '../src/components/PageOne'
+import PageTwo from '../src/components/PageTwo'
+import PageThree from '../src/components/PageThree'
+import Login from '../src/components/Login'
+import Register from '../src/components/Register'
 import { useState } from 'react'
-import Nav from './Nav'
+import Nav from '../src/components/Nav'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 

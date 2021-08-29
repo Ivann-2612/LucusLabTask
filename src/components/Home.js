@@ -1,5 +1,5 @@
 import { Redirect } from "react-router"
-import Logo from '../src/img/logo.png'
+import Logo from '../img/logo.png'
 import SocialNetwork from "./SocialNetwork"
 
 const Home = ({ loggedIn }) => {

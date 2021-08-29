@@ -1,6 +1,6 @@
 import React from "react"
 import "./TodoApp.css"
-import Delete from '../src/img/delete.png'
+import Delete from '../img/delete.png'
 
 export default function TodoApp() {
   const [todo, setTodo] = React.useState("")

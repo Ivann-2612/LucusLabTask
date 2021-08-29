@@ -1,6 +1,6 @@
-import { registerUser } from "./service"
-import { useRegister } from "./useRegister"
-import { getAllUsers } from './service'
+import { registerUser } from "../service"
+import { useRegister } from "../useRegister"
+import { getAllUsers } from '../service'
 import { useHistory } from 'react-router-dom'
 
 
