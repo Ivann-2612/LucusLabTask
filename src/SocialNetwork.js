@@ -8,11 +8,11 @@ import { FaYoutube } from 'react-icons/fa'
 const SocialNetwork = () => {
     return (
         <div className='social-icons'>
-                <a href="#"><FaFacebook/></a> 
-                <a href="#"><FaTwitterSquare/></a> 
-                <a href="#"><FcGoogle/></a> 
-                <a href="#"><SiLinkedin/></a>
-                <a href="#"><FaYoutube/></a> 
+                <a href="https://www.google.rs/"><FaFacebook/></a> 
+                <a href="https://www.google.rs/"><FaTwitterSquare/></a> 
+                <a href="https://www.google.rs/"><FcGoogle/></a> 
+                <a href="https://www.google.rs/"><SiLinkedin/></a>
+                <a href="https://www.google.rs/"><FaYoutube/></a> 
         </div>
     )
 }
