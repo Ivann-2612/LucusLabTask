@@ -26,8 +26,8 @@ const Login = ({ setUser }) => {
                 })
             }}>
                 <div className='div-input'>
-                <input className='input' type="text" placeholder="Username..." onChange={e => setUsername(e.target.value)}/>
-                <input className='input' type="password" placeholder="Password..." onChange={e => setPassword(e.target.value)}/>
+                <input className='input' required type="text" placeholder="Username..." onChange={e => setUsername(e.target.value)}/>
+                <input className='input' required type="password" placeholder="Password..." onChange={e => setPassword(e.target.value)}/>
                 <input className='btn-login' type="submit" value="Login" />
                 <Link className='not-registered' to='/register'>Not registered?</Link>
                 </div>

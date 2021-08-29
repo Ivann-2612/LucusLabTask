@@ -1,11 +1,12 @@
 import React from 'react'
 import axios from 'axios'
 import { useState } from 'react'
+import {key} from './service'
 
 const PageTwo = () => {
 
     const [photo, setPhoto] = useState('')
-    const [clientId, setClientId] = useState('wSuf86m2SbqRlxRSsetTfPkc9GJuvSk0wD7SVj0HhcI')
+    const [clientId, setClientId] = useState(key)
     const [results, setResults] = useState([])
 
     const handleChange = (e) => {
@@ -25,15 +26,15 @@ const PageTwo = () => {
 
     return (
         <div className='page-two'>
-            <div><h1>Unsplash gallery</h1><span style={{color:'#DCC69D'}}>Search your favourite image</span></div> 
+            <div><h1>Unsplash gallery</h1><marquee style={{color:'#DCC69D'}}>Search your favourite image</marquee></div> 
             <div style={{marginBottom:'10px'}}>
             <input onChange={handleChange} type='search' name='photo' placeholder='Search for photos...' />
             <button onClick={handleSubmit} type='submit'>Search</button>
             </div><br /> 
             {
                 results.map((result) => (
-                    <div className='gallery'>
-                         <img style={{height:'370px',width:'370px'}} src={result.urls.small} alt='decorative images' />
+                    <div key={result.id} className='gallery'>
+                         <img style={{height:'370px',width:'370px',border:'7px solid #050505'}} src={result.urls.small} alt='decorative images' />
                     </div>
                        
                     )

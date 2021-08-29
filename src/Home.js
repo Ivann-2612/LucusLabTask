@@ -8,6 +8,8 @@ const Home = ({ loggedIn }) => {
         <img style={{height:'30px'}} src={Logo} alt='logo' />
         {/* <span style={{fontSize:'30px',position:'absolute',left:'45.5%',top:'28%',color:'#353535'}}>Super App</span> */}
         <div className='square'></div>
+        <div className='lineup'></div>
+        <div className='linedown'></div>
             {loggedIn ? <Redirect to='/pageone' /> : <Redirect to='/login' />}
          <SocialNetwork />
         </div>

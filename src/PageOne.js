@@ -4,8 +4,8 @@ import MaterialTable from '@material-table/core'
 const PageOne = () => {
     
     const [columns, setColumns] = useState([
-                                    { title: 'Title', field: 'title',width:150 },
-                                    { title: 'Body', field: 'body',width:150 },
+                                    { title: 'Title', field: 'title',width:120 },
+                                    { title: 'Body', field: 'body',width:120 },
                                     { title: 'id', field: 'id',width:150 },
     ]);
   
@@ -18,7 +18,7 @@ const PageOne = () => {
     },[])
   
     return (
-      <MaterialTable 
+      <MaterialTable style={{marginLeft:'260px',marginTop:'80px'}}
       title="Posts"
       options={{
         search: true,

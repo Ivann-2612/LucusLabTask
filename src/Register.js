@@ -17,7 +17,7 @@ const Register = () => {
         <form onSubmit={e => {
             e.preventDefault()
             if(username.length < 4 && !validPassword(password)){
-                console.log('Invalid input, username at least 4, password 8 characters, one letter, one number')
+                alert('Invalid input, username at least 4, password 8 characters, one letter, one number')
                 return
             }
             getAllUsers().then(res => {
@@ -27,7 +27,7 @@ const Register = () => {
                     })
                 }
                 else{
-                    console.log('User already exists')
+                    alert('User already exists')
                 }
             })
         }}>

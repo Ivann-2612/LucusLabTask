@@ -4,7 +4,16 @@ import Delete from '../src/img/delete.png'
 
 export default function TodoApp() {
   const [todo, setTodo] = React.useState("")
-  const [todos, setTodos] = React.useState([])
+  const [todos, setTodos] = React.useState([
+    {
+        id:1,
+        text:'My new todo app'
+    },
+    {
+        id:2,
+        text:'My second todo app'
+    }
+  ])
 
   const handleChange = e => {
     setTodo(e.target.value);
@@ -33,14 +42,7 @@ export default function TodoApp() {
     setTodos(updatedTodos);
   };
 
-//   const toggleTodo = todoId => {
-//     const updatedTodos = todos.map(todo => {
-//       return todo.id === todoId
-//         ? { ...todo, completed: !todo.completed }
-//         : todo;
-//     });
-//     setTodos(updatedTodos);
-//   };
+
 
   return (
     <div className="page-three">
