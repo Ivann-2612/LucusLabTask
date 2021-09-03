@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/LucusLabTask/static/css/main.1b1031ca.chunk.css",
+    "main.js": "/LucusLabTask/static/js/main.b8c92e3c.chunk.js",
+    "main.js.map": "/LucusLabTask/static/js/main.b8c92e3c.chunk.js.map",
+    "runtime-main.js": "/LucusLabTask/static/js/runtime-main.1bbf5e3c.js",
+    "runtime-main.js.map": "/LucusLabTask/static/js/runtime-main.1bbf5e3c.js.map",
+    "static/js/2.36aed6db.chunk.js": "/LucusLabTask/static/js/2.36aed6db.chunk.js",
+    "static/js/2.36aed6db.chunk.js.map": "/LucusLabTask/static/js/2.36aed6db.chunk.js.map",
+    "index.html": "/LucusLabTask/index.html",
+    "static/css/main.1b1031ca.chunk.css.map": "/LucusLabTask/static/css/main.1b1031ca.chunk.css.map",
+    "static/js/2.36aed6db.chunk.js.LICENSE.txt": "/LucusLabTask/static/js/2.36aed6db.chunk.js.LICENSE.txt",
+    "static/media/logo.56490f59.png": "/LucusLabTask/static/media/logo.56490f59.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1bbf5e3c.js",
+    "static/js/2.36aed6db.chunk.js",
+    "static/css/main.1b1031ca.chunk.css",
+    "static/js/main.b8c92e3c.chunk.js"
+  ]
+}
