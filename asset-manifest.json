@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LucusLabTask/static/css/main.1b1031ca.chunk.css",
-    "main.js": "/LucusLabTask/static/js/main.8d79859e.chunk.js",
-    "main.js.map": "/LucusLabTask/static/js/main.8d79859e.chunk.js.map",
+    "main.js": "/LucusLabTask/static/js/main.40d27452.chunk.js",
+    "main.js.map": "/LucusLabTask/static/js/main.40d27452.chunk.js.map",
     "runtime-main.js": "/LucusLabTask/static/js/runtime-main.1bbf5e3c.js",
     "runtime-main.js.map": "/LucusLabTask/static/js/runtime-main.1bbf5e3c.js.map",
     "static/js/2.36aed6db.chunk.js": "/LucusLabTask/static/js/2.36aed6db.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.1bbf5e3c.js",
     "static/js/2.36aed6db.chunk.js",
     "static/css/main.1b1031ca.chunk.css",
-    "static/js/main.8d79859e.chunk.js"
+    "static/js/main.40d27452.chunk.js"
   ]
 }
